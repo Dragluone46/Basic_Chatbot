@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import json
+from utility import stream_ollama
 
 OLLAMA_MODEL = "llama3:8b-instruct-q5_1"
 
